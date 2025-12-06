@@ -4,24 +4,6 @@ Metabolic Scaling Fluctuations
 Analysis scripts and data for the manuscript "Metabolic fluctuations explain allometric scaling diversity".
 
 ---------------------------------------
-Repository Structure
----------------------------------------
-Scaling_Fluctuations-main/
-│
-├── data/
-│   ├── data_ind.csv        — Empirical individual-level dataset
-│   └── sims.RData          — Pre-computed simulation results
-│
-├── scripts/
-│   ├── Figures.R           — Script to generate all figures for the study
-│   ├── Fig5.R              — Standalone script to reproduce Figure 5
-│   ├── functions.R         — Helper functions for simulations and analysis
-│   └── sweep_parallel.R    — Parameter sweep / simulation pipeline
-│
-└── README.txt              — Project documentation
-
-
----------------------------------------
 Overview
 ---------------------------------------
 This repository contains code and data used to study scaling fluctuations in ecological systems.
